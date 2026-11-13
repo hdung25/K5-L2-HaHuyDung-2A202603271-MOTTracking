@@ -16,3 +16,7 @@ MOT17*/
 # CVAT local lab preparation
 .lab-local/
 .venv/
+
+# Pipeline gán nhãn bán tự động: ảnh crop MOT17, detection, trọng số model
+tools/autolabel/out/
+*.pt
